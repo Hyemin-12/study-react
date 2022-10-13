@@ -9,7 +9,7 @@ import List from "./pages/List";
 
 function App() {
   return (
-    // html 태그와 유사하지만 xml이므로 완전히 똑같지 X
+    // html 태그와 유사하지만 jsx로, 완전히 똑같지 X
     <div className="App">
       <nav>
         <Link to="/">Home</Link> | <Link to="/about">About</Link> | <Link to="/counter">Counter</Link> | 
